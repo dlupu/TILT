@@ -1,7 +1,7 @@
 # TILT
 TILT : Things I Learned Today 
 
-## Ruby
+## Rubymine
 
-* [test](ruby/test.md)
+* [Search Everywhere](rubymine/search_everywhere.md)
 * 
