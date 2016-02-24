@@ -1,0 +1,7 @@
+
+#Using `rack-mini-profiler` to track memory leaks
+
+Sources
+* [rack-mini-profiler gem](https://github.com/miniprofiler/rack-mini-profiler)
+* [rack-mini-profiler - the Secret Weapon of Ruby and Rails Speed](https://www.nateberkopec.com/2015/08/05/rack-mini-profiler-the-secret-weapon.html)
+* [Flame graphs in ruby-mini-profiler](https://samsaffron.com/archive/2013/03/19/flame-graphs-in-ruby-miniprofiler)
