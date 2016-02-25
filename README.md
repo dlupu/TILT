@@ -5,6 +5,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ## Categories
 * [Active Record](#active-record)
 * [Chrome](#chrome)
+* [Debugging](#debugging)
 * [Rubymine](#rubymine)
 
 ## Active Record
@@ -16,6 +17,11 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 * [Clear HSTS state (HTTP Strict Transport Security) ](chrome/clear_hsts_state.md)
 * 
+
+## Debugging
+
+* [Using `rack-mini-profiler` to track memory leaks](debugging/ruby-mini-profiler.md)
+*
 
 ## Rubymine
 
