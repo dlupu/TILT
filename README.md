@@ -21,7 +21,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 ## Debugging
 
 * [Using `rack-mini-profiler` to track memory leaks](debugging/ruby-mini-profiler.md)
-*
+* 
 
 ## Rubymine
 
