@@ -19,16 +19,30 @@ group :dev, :development do
 end
 ```
 
+According to one of the articles in the sources it's best to disable https. In my case that meant I needed to change `FORCE_SSL` value for `'1'`to `'0'`and also tell the browser to [forget about the STS settings](../chrome/clear_hsts_state.md).
+
+We also need to authorize the gem in order to be used. For simplicity I decided to make it available to all user :
+
+```ruby 
+# app/controllers/application_controller.rb
+before_action do
+  Rack::MiniProfiler.authorize_request if Rails.env.dev? || Rails.env.development?
+end
+```
+
+The gem requires storage. For simplicity reasons I decided to use the memory (but you can also use redis or filestorage). 
+
 ```ruby
 # config/initializers/rack_mini_profiler.rb
 if Rails.env.dev? || Rails.env.development?
-  # I'm using Redis as a storage
-  Rack::MiniProfiler.config.storage_options = { url: "#{ENV['REDIS_URL']}/3" }
-  Rack::MiniProfiler.config.storage = Rack::MiniProfiler::RedisStore
-  
-  # You can use memory storage if you don't have redis on your project. see gem readme for more information
+ (Rack::MiniProfiler.config.storage = Rack::MiniProfiler::MemoryStore) if Rails.env.dev? || Rails.env.development?
 end
 ```
+
+Now you can access the miniprofiler page by adding `?pp=help` to the end of the url. Most useful features for debugging memory issues are:
+* profile-gc 
+* profile-memory 
+* analyze-memory 
 
 Sources
 * [rack-mini-profiler gem](https://github.com/miniprofiler/rack-mini-profiler)
