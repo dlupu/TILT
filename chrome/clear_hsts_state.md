@@ -6,7 +6,7 @@ This is because Google Chrome remembers this and routes you to the most safest v
 Sometimes however you just want your browser to do what you instruct it to do. Here is hot to remove specific domain from HSTS
 
 
-* Step-1: Point your browser to: [chrome://net-internals/#hsts](chrome://net-internals/#hsts)
+* Step-1: Point your browser to: **[chrome://net-internals/#hsts](chrome://net-internals/#hsts)**
 * Step-2: Under ‘Delete Domain’, type the domain you try to access in HTTP
 * Step-3: Click ‘delete’
 
