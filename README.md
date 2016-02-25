@@ -10,12 +10,12 @@ A collection of concise write-ups on small things I learn day to day across a va
 ## Active Record
 
 * [Using `merge` to cleanup scopes that use associations](active_record/merging_scopes.md)
-*
+* 
 
 ## Chrome
 
 * [Clear HSTS state (HTTP Strict Transport Security) ](chrome/clear_hsts_state.md)
-*
+* 
 
 ## Rubymine
 
