@@ -1,4 +1,4 @@
-#Clear HSTS state (HTTP Strict Transport Security) in chrome
+#Clear HSTS state (HTTP Strict Transport Security) in Chrome
 
 Once you have visited the HTTPS version of a certain website, you might not be able to visit the HTTP version of the same.
 This is because Google Chrome remembers this and routes you to the most safest version (HTTPS) for that domain. (and annoyingly also apply this to sub domains, regardless if they have HTTPS enabled or not) This is part of the HSTS protocol and usually a good thing.
