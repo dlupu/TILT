@@ -11,3 +11,6 @@
 * [A9 - Using Known Vulnerable Components](09-using-known-vulnerable-components.md)
 * [A10 - Unvalidated Redirects and Forwards](10-unvalidated-redirects-and-forwards.md)
     
+Ressources
+* [OWASP Top Ten Cheat Sheet](https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet)
+* [OWASP Top 10 Proactive Controls 2016](https://www.owasp.org/index.php/OWASP_Proactive_Controls)
