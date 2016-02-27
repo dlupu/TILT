@@ -8,6 +8,6 @@
 * [A6 - Sensitive Data Exposure](06-sensitive-data -exposure.md)
 * [A7 - Missing Function Level Access Control](07-missing-function-level-access-control.md)
 * [A8 - Cross-Site Request Forgery (CSRF)](08-cross-site-request-forgery-csrf.md)
-* [A9 - Using Known Vulnerable Components](09-using-known-vulnerable-components.m)
+* [A9 - Using Known Vulnerable Components](09-using-known-vulnerable-components.md)
 * [A10 - Unvalidated Redirects and Forwards](10-unvalidated-redirects-and-forwards.md)
     
