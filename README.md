@@ -8,6 +8,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 * [Debugging](#debugging)
 * [Rubymine](#rubymine)
 * [Samsunng Smart Tv](#samsung-smart-tv)
+* [Others](#others)
 
 ## Active Record
 
@@ -33,3 +34,8 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 * [Display subtitles when looking at movies stored on a NAS from on a Samsung Smart TV](samsung_tv/display_subtitles.md)
 *  
+
+## Others
+
+* [Link references in markdown](others/link-references-in-markdown.md)
+* 
