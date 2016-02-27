@@ -2,7 +2,7 @@
 
 * Name the folder, the video file and the subtitle files exactly same. Just the extension should be different, nothing else.
 * Keep the subtitles file in the same folder as the video file.
-* Video format of the files also matter. I found it to be working `.mp4` I’ll update with more formats as I find it.
+* Video format of the files also matter. I found it to be working `.mp4` and `.mkv`. I’ll update with more formats as I find it.
 * Do not use dots in the file name (except the dot that separates the file name from the extension) 
 * Do not use spaces in the file name (use underscores `_`)
 
