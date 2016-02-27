@@ -7,6 +7,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 * [Chrome](#chrome)
 * [Debugging](#debugging)
 * [Rubymine](#rubymine)
+* [Samsunng Smart Tv](#samsung-smart-tv)
 
 ## Active Record
 
@@ -27,3 +28,8 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 * [Search Everywhere](rubymine/search_everywhere.md)
 * 
+
+## Samsung Smart TV
+
+* [Display subtitles when looking at movies stored on a NAS from on a Samsung Smart TV](samsung_tv/display_subtitles.md)
+*  
